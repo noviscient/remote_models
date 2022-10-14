@@ -20,3 +20,9 @@
 ```sh
 pytest
 ```
+
+# How to install in the project
+
+```sh
+> pip install git+https://github.com/noviscient/remote_models.git
+```
