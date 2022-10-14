@@ -1,0 +1,67 @@
+{
+  "count": 6,
+  "next": null,
+  "previous": null,
+  "results": [
+      {
+          "id": 1,
+          "state": "2022-07-15",
+          "identifier": {
+              "symbol": "^IRX",
+              "source": "YAHOO",
+              "multiplier": 10.000
+          },
+          "symbol": "IRX Index"
+      },
+      {
+          "id": 2,
+          "state": null,
+          "identifier": {
+              "symbol": "892400",
+              "source": "MSCIID",
+              "multiplier": 1.000
+          },
+          "symbol": "MXWD Index"
+      },
+      {
+          "id": 3,
+          "state": null,
+          "identifier": {
+              "symbol": "990500",
+              "source": "MSCIID",
+              "multiplier": 1.000
+          },
+          "symbol": "MXEU Index"
+      },
+      {
+          "id": 4,
+          "state": null,
+          "identifier": {
+              "symbol": "HFRXGL",
+              "source": "BLOOMBERG",
+              "multiplier": 1.000
+          },
+          "symbol": "HFRXGL Index"
+      },
+      {
+          "id": 5,
+          "state": "2022-07-15",
+          "identifier": {
+              "symbol": "^HSI",
+              "source": "YAHOO",
+              "multiplier": 1.000
+          },
+          "symbol": "HSI Index"
+      },
+      {
+          "id": 6,
+          "state": null,
+          "identifier": {
+              "symbol": "^SPGSCI",
+              "source": "YAHOO",
+              "multiplier": 1.000
+          },
+          "symbol": "SPGSCI Index"
+      }
+  ]
+}
