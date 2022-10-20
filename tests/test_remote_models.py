@@ -23,7 +23,7 @@ def test_remote_models(requests_mock):
         mock_benchmarks_states_response = json.load(f)
 
     requests_mock.get(
-        "http://benchmarks-api.noviscient.com/api/v1/benchmarks-states",
+        "http://benchmarks-api.noviscient.com/api/v1/benchmarks-states/",
         json=mock_benchmarks_states_response,
     )
 
@@ -51,7 +51,7 @@ def test_remote_models_with_exception(requests_mock):
     """
 
     requests_mock.get(
-        "http://benchmarks-api.noviscient.com/api/v1/benchmarks-states",
+        "http://benchmarks-api.noviscient.com/api/v1/benchmarks-states/",
         exc=GenericFailedRequest("Failed request"),
     )
 

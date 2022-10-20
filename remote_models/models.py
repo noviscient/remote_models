@@ -27,7 +27,7 @@ class RemoteModel:
         """
         encoded_params = urllib.parse.urlencode(params) if params else ""
 
-        return f"{self.base_url}{entity}?{encoded_params}"
+        return f"{self.base_url}{entity}/?{encoded_params}"
 
     def raise_for_status(self, response: requests.Response, url: Optional[str]) -> None:
         """Raises exception if status code is not 200
