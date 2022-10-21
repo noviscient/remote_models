@@ -27,7 +27,7 @@ setup(
     keywords="models remote rest api",
     packages=find_packages(exclude=("docs", "tests", "env", "index.py")),
     include_package_data=True,
-    install_requires=[],
+    install_requires=["pydantic", "requests"],
     extras_require={
         "dev": [],
         "docs": [],
