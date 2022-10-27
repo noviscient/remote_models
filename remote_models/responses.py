@@ -7,12 +7,12 @@ class BaseResponse(BaseModel):
     pass
 
 
-class BasePaginatedResponse(BaseModel):
+class BasePaginatedResponse(BaseResponse):
     count: int
     next: Optional[str] = None
     previous: Optional[str] = None
     results: List[Any]
 
 
-class FailedResponse(BaseModel):
+class FailedResponse(BaseResponse):
     detail: str
