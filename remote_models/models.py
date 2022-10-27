@@ -63,7 +63,7 @@ class RemoteModel:
 
         self.raise_for_status(response, url)
 
-        return response_class(**response.json())
+        return response_class(**response.json(), http_response=response)
 
     def filter_all(
         self, entity: str, response_class: Type[BasePaginatedResponse], **conditions
@@ -119,4 +119,4 @@ class RemoteModel:
 
         self.raise_for_status(response, url)
 
-        return response_class(**response.json())
+        return response_class(**response.json(), http_response=response)

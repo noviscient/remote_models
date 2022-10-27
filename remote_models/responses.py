@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 
 class BaseResponse(BaseModel):
-    pass
+    http_response: Optional[Any]
 
 
 class BasePaginatedResponse(BaseResponse):
