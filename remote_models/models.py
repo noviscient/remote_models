@@ -5,7 +5,7 @@ from typing import Any, List, Optional, Type
 import requests
 
 from .exceptions import GenericFailedRequest, RemoteModelTimeOutException
-from .responses import BaseResponse
+from .responses import BasePaginatedResponse, BaseResponse
 
 logger = logging.getLogger("tasks.generic.models")
 
@@ -43,8 +43,8 @@ class RemoteModel:
             raise GenericFailedRequest(f"Response: {response.text} URL: {url}")
 
     def filter(
-        self, entity: str, response_class: Type[BaseResponse], **conditions
-    ) -> BaseResponse:
+        self, entity: str, response_class: Type[BasePaginatedResponse], **conditions
+    ) -> BasePaginatedResponse:
         """Request to remote model with filters, returns paginated result
 
         Returns:
@@ -66,8 +66,8 @@ class RemoteModel:
         return response_class(**response.json())
 
     def filter_all(
-        self, entity: str, response_class: Type[BaseResponse], **conditions
-    ) -> BaseResponse:
+        self, entity: str, response_class: Type[BasePaginatedResponse], **conditions
+    ) -> BasePaginatedResponse:
         """Filter all remote records
 
         Args:
@@ -98,19 +98,25 @@ class RemoteModel:
 
         return response_class(count=len(results), results=results)
 
+    def save(
+        self, entity: str, response_class: Type[BaseResponse], **fields_values
+    ) -> BaseResponse:
+        """Request to remote model with filters, returns paginated result
 
-# class BenchmarksRemoteModel(RemoteModel):
-#     def __init__(self, entity: str) -> None:
-#         self.base_url = "<NOT DEFINED>"
+        Returns:
+            _type_: REST API Response
+        """
 
+        url = self._url(entity)
 
-# class NoviscientFundboxRemoteModel(RemoteModel):
-#     def __init__(self, base_url: str, access_token: str) -> None:
-#         self.base_url = base_url
-#         self.access_token = access_token
+        try:
+            response: requests.Response = requests.post(
+                url, json=fields_values, headers=self._header(), timeout=10
+            )
+        except requests.exceptions.Timeout as exc:
+            logger.exception(f"[!!!] Time out exception: {exc}")
+            raise RemoteModelTimeOutException(exc)
 
-#     def _header(self):
-#         return {
-#             "content-type": "application/json",
-#             "authorization": f"Bearer {self.access_token}",
-#         }
+        self.raise_for_status(response, url)
+
+        return response_class(**response.json())

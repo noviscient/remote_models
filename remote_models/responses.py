@@ -4,6 +4,10 @@ from pydantic import BaseModel
 
 
 class BaseResponse(BaseModel):
+    pass
+
+
+class BasePaginatedResponse(BaseModel):
     count: int
     next: Optional[str] = None
     previous: Optional[str] = None
