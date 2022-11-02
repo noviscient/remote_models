@@ -98,10 +98,10 @@ class RemoteModel:
 
         return response_class(count=len(results), results=results)
 
-    def save(
+    def create(
         self, entity: str, response_class: Type[BaseResponse], **fields_values
     ) -> BaseResponse:
-        """Request to remote model with filters, returns paginated result
+        """POST request to remote model
 
         Returns:
             _type_: REST API Response
@@ -111,6 +111,29 @@ class RemoteModel:
 
         try:
             response: requests.Response = requests.post(
+                url, json=fields_values, headers=self._header(), timeout=10
+            )
+        except requests.exceptions.Timeout as exc:
+            logger.exception(f"[!!!] Time out exception: {exc}")
+            raise RemoteModelTimeOutException(exc)
+
+        self.raise_for_status(response, url)
+
+        return response_class(**response.json(), http_response=response)
+
+    def update(
+        self, entity: str, response_class: Type[BaseResponse], **fields_values
+    ) -> BaseResponse:
+        """PATCH request to remote model
+
+        Returns:
+            _type_: REST API Response
+        """
+
+        url = self._url(entity)
+
+        try:
+            response: requests.Response = requests.patch(
                 url, json=fields_values, headers=self._header(), timeout=10
             )
         except requests.exceptions.Timeout as exc:

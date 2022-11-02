@@ -71,7 +71,7 @@ def test_filter_remote_models_with_exception(requests_mock):
         )
 
 
-def test_save_remote_models(requests_mock):
+def test_create_remote_models(requests_mock):
     """Test save remote models
 
     Args:
@@ -90,7 +90,7 @@ def test_save_remote_models(requests_mock):
         base_url="http://benchmarks-api.noviscient.com/api/v1/"
     )
 
-    save_response: RemoteBenchmarkResponse = remote_benchmarks.save(
+    save_response: RemoteBenchmarkResponse = remote_benchmarks.create(
         entity="benchmark-timeseries",
         response_class=RemoteBenchmarkResponse,
         data="2022-10-11",
