@@ -143,3 +143,26 @@ class RemoteModel:
         self.raise_for_status(response, url)
 
         return response_class(**response.json(), http_response=response)
+
+    def delete(
+        self, entity: str, response_class: Type[BaseResponse], **fields_values
+    ) -> BaseResponse:
+        """DELETE request to remote model
+
+        Returns:
+            _type_: REST API Response
+        """
+
+        url = self._url(entity)
+
+        try:
+            response: requests.Response = requests.delete(
+                url, json=fields_values, headers=self._header(), timeout=10
+            )
+        except requests.exceptions.Timeout as exc:
+            logger.exception(f"[!!!] Time out exception: {exc}")
+            raise RemoteModelTimeOutException(exc)
+
+        self.raise_for_status(response, url)
+
+        return response_class(**response.json(), http_response=response)
