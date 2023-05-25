@@ -15,6 +15,10 @@ class RemoteModel:
         self.base_url = base_url
         self.timeout = timeout
 
+        self.session = requests.Session()
+        self.session.mount("http://", requests.adapters.HTTPAdapter(max_retries=3))
+        self.session.mount("https://", requests.adapters.HTTPAdapter(max_retries=3))
+
     def _header(self):
         return {
             "content-type": "application/json",
@@ -49,22 +53,27 @@ class RemoteModel:
         """Request to remote model with filters, returns paginated result
 
         Returns:
-            _type_: REST API Response
+            BaseResponse: REST API Response
         """
 
         url = self._url(entity, **conditions)
 
         try:
-            response: requests.Response = requests.get(
+            with self.session.get(
                 url, headers=self._header(), timeout=self.timeout
-            )
+            ) as response:
+
+                self.raise_for_status(response, url)
+                response_data = response_class(
+                    **response.json(), http_response=response
+                )
+
         except requests.exceptions.Timeout as exc:
             logger.exception(f"[!!!] Time out exception: {exc}")
             raise RemoteModelTimeOutException(exc)
 
-        self.raise_for_status(response, url)
-
-        return response_class(**response.json(), http_response=response)
+        else:
+            return response_data
 
     def filter_all(
         self, entity: str, response_class: Type[BasePaginatedResponse], **conditions
@@ -81,21 +90,27 @@ class RemoteModel:
             Type[BaseResponse]: Return response object
         """
 
-        response = self.filter(entity, response_class, **conditions)
+        response_data = self.filter(entity, response_class, **conditions)
 
-        results: List[Any] = response.results
+        results: List[Any] = response_data.results
 
-        while response.next:
+        while response_data.next:
             try:
-                r: requests.Response = requests.get(
-                    response.next, headers=self._header(), timeout=10
-                )
+                with self.session.get(
+                    response_data.next, headers=self._header(), timeout=self.timeout
+                ) as response:
+
+                    self.raise_for_status(response, response_data.next)
+                    response_data = response_class(
+                        **response.json(), http_response=response
+                    )
+
             except requests.exceptions.Timeout as exc:
                 logger.exception(f"[!!!] Time out exception: {exc}")
                 raise RemoteModelTimeOutException(exc)
 
-            response = response_class(**r.json())
-            results.extend(response.results)
+            else:
+                results.extend(response_data.results)
 
         return response_class(count=len(results), results=results)
 
@@ -111,16 +126,21 @@ class RemoteModel:
         url = self._url(entity)
 
         try:
-            response: requests.Response = requests.post(
+            with self.session.post(
                 url, json=fields_values, headers=self._header(), timeout=self.timeout
-            )
+            ) as response:
+
+                self.raise_for_status(response, url)
+                response_data = response_class(
+                    **response.json(), http_response=response
+                )
+
         except requests.exceptions.Timeout as exc:
             logger.exception(f"[!!!] Time out exception: {exc}")
             raise RemoteModelTimeOutException(exc)
 
-        self.raise_for_status(response, url)
-
-        return response_class(**response.json(), http_response=response)
+        else:
+            return response_data
 
     def create_bulk(
         self, entity: str, response_class: Type[BaseResponse], bulk_data: list
@@ -134,16 +154,21 @@ class RemoteModel:
         url = self._url(entity)
 
         try:
-            response: requests.Response = requests.post(
+            with self.session.post(
                 url, json=bulk_data, headers=self._header(), timeout=self.timeout
-            )
+            ) as response:
+
+                self.raise_for_status(response, url)
+                response_data = response_class(
+                    **response.json(), http_response=response
+                )
+
         except requests.exceptions.Timeout as exc:
             logger.exception(f"[!!!] Time out exception: {exc}")
             raise RemoteModelTimeOutException(exc)
 
-        self.raise_for_status(response, url)
-
-        return response_class(http_response=response)
+        else:
+            return response_data
 
     def update(
         self, entity: str, response_class: Type[BaseResponse], **fields_values
@@ -157,16 +182,21 @@ class RemoteModel:
         url = self._url(entity)
 
         try:
-            response: requests.Response = requests.patch(
+            with self.session.patch(
                 url, json=fields_values, headers=self._header(), timeout=self.timeout
-            )
+            ) as response:
+
+                self.raise_for_status(response, url)
+                response_data = response_class(
+                    **response.json(), http_response=response
+                )
+
         except requests.exceptions.Timeout as exc:
             logger.exception(f"[!!!] Time out exception: {exc}")
             raise RemoteModelTimeOutException(exc)
 
-        self.raise_for_status(response, url)
-
-        return response_class(**response.json(), http_response=response)
+        else:
+            return response_data
 
     def delete(
         self, entity: str, response_class: Type[BaseResponse], **fields_values
@@ -180,13 +210,18 @@ class RemoteModel:
         url = self._url(entity)
 
         try:
-            response: requests.Response = requests.delete(
+            with self.session.delete(
                 url, json=fields_values, headers=self._header(), timeout=self.timeout
-            )
+            ) as response:
+
+                self.raise_for_status(response, url)
+                response_data = response_class(
+                    **response.json(), http_response=response
+                )
+
         except requests.exceptions.Timeout as exc:
             logger.exception(f"[!!!] Time out exception: {exc}")
             raise RemoteModelTimeOutException(exc)
 
-        self.raise_for_status(response, url)
-
-        return response_class(**response.json(), http_response=response)
+        else:
+            return response_data
