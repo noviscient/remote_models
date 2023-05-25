@@ -159,9 +159,7 @@ class RemoteModel:
             ) as response:
 
                 self.raise_for_status(response, url)
-                response_data = response_class(
-                    **response.json(), http_response=response
-                )
+                response_data = response_class(http_response=response)
 
         except requests.exceptions.Timeout as exc:
             logger.exception(f"[!!!] Time out exception: {exc}")
