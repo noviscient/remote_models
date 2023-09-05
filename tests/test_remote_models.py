@@ -17,6 +17,21 @@ class RemoteBenchmarkResponse(BaseResponse):
     benchmark: int
 
 
+class FamaFrench(BaseResponse):
+    date: str
+    value: float
+    size: float
+    momentum: float
+    market_excess: float
+    risk_free: float
+    market: int
+    id: int
+
+
+class FamaFrenchTimeSeriesResponse(BasePaginatedResponse):
+    results: List[FamaFrench]
+
+
 def test_filter_remote_models(requests_mock):
     """Test remote models
 
@@ -99,3 +114,34 @@ def test_create_remote_models(requests_mock):
 
     assert save_response.benchmark == 0
     assert save_response.date == "2022-10-27"
+
+
+def test_filter_remote_famafrench_timeseries_models(requests_mock):
+    """Test remote models
+
+    Args:
+        requests_mock (_type_): Requests mock
+    """
+
+    with open("tests/data/mock_famafrench_timeseries.json") as f:
+        mock_ff_timeseries_response = json.load(f)
+
+    requests_mock.get(
+        "http://benchmarks-api.noviscient.com/api/v1/famafrench-timeseries/",
+        json=mock_ff_timeseries_response,
+    )
+
+    remote_benchmarks = RemoteModel(
+        base_url="http://benchmarks-api.noviscient.com/api/v1/"
+    )
+
+    response = remote_benchmarks.filter_all(
+        entity="famafrench-timeseries",
+        response_class=FamaFrenchTimeSeriesResponse,
+    )
+
+    assert (
+        type(response) == FamaFrenchTimeSeriesResponse
+    ), f"Response type is not {FamaFrenchTimeSeriesResponse}"
+    assert len(response.results) == 304, "Response results length is not 304"
+    assert response.count == 304, "Response count is not 304"

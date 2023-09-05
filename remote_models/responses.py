@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 
 class BaseResponse(BaseModel):
-    http_response: Optional[Any]
+    http_response: Optional[Any] = None
 
 
 class BasePaginatedResponse(BaseResponse):

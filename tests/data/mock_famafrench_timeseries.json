@@ -1,0 +1,3047 @@
+{
+    "count": 304,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "id": 51203,
+        "size": 0.31,
+        "momentum": 0.32,
+        "value": -0.03,
+        "market_excess": -0.95,
+        "risk_free": 0,
+        "date": "2022-06-30",
+        "market": 1
+      },
+      {
+        "id": 51209,
+        "size": -0.67,
+        "momentum": 0,
+        "value": -0.54,
+        "market_excess": -0.53,
+        "risk_free": 0,
+        "date": "2022-06-29",
+        "market": 1
+      },
+      {
+        "id": 51215,
+        "size": 0.55,
+        "momentum": 1.66,
+        "value": 1.7,
+        "market_excess": -1.29,
+        "risk_free": 0,
+        "date": "2022-06-28",
+        "market": 1
+      },
+      {
+        "id": 51221,
+        "size": 0.66,
+        "momentum": 1.16,
+        "value": 0.56,
+        "market_excess": 0.21,
+        "risk_free": 0,
+        "date": "2022-06-27",
+        "market": 1
+      },
+      {
+        "id": 51227,
+        "size": -0.67,
+        "momentum": -0.99,
+        "value": -1.03,
+        "market_excess": 2.75,
+        "risk_free": 0,
+        "date": "2022-06-24",
+        "market": 1
+      },
+      {
+        "id": 51233,
+        "size": -0.11,
+        "momentum": -2.4,
+        "value": -2.17,
+        "market_excess": 0.41,
+        "risk_free": 0,
+        "date": "2022-06-23",
+        "market": 1
+      },
+      {
+        "id": 51239,
+        "size": -0.16,
+        "momentum": -1.06,
+        "value": -0.91,
+        "market_excess": -0.32,
+        "risk_free": 0,
+        "date": "2022-06-22",
+        "market": 1
+      },
+      {
+        "id": 51245,
+        "size": -0.68,
+        "momentum": 0.76,
+        "value": -0.25,
+        "market_excess": 1.71,
+        "risk_free": 0,
+        "date": "2022-06-21",
+        "market": 1
+      },
+      {
+        "id": 51251,
+        "size": -0.3,
+        "momentum": -0.06,
+        "value": 0.12,
+        "market_excess": 0.22,
+        "risk_free": 0,
+        "date": "2022-06-20",
+        "market": 1
+      },
+      {
+        "id": 51257,
+        "size": -0.16,
+        "momentum": -2.19,
+        "value": -1.5,
+        "market_excess": -0.21,
+        "risk_free": 0,
+        "date": "2022-06-17",
+        "market": 1
+      },
+      {
+        "id": 51263,
+        "size": 0.8,
+        "momentum": 1.25,
+        "value": -0.05,
+        "market_excess": -2.55,
+        "risk_free": 0,
+        "date": "2022-06-16",
+        "market": 1
+      },
+      {
+        "id": 51269,
+        "size": -0.41,
+        "momentum": -1.43,
+        "value": -0.82,
+        "market_excess": 1.38,
+        "risk_free": 0,
+        "date": "2022-06-15",
+        "market": 1
+      },
+      {
+        "id": 51275,
+        "size": -0.59,
+        "momentum": 0.21,
+        "value": 0.57,
+        "market_excess": -0.79,
+        "risk_free": 0,
+        "date": "2022-06-14",
+        "market": 1
+      },
+      {
+        "id": 51281,
+        "size": 0.05,
+        "momentum": 1.42,
+        "value": 0.71,
+        "market_excess": -3.67,
+        "risk_free": 0,
+        "date": "2022-06-13",
+        "market": 1
+      },
+      {
+        "id": 51287,
+        "size": 0.43,
+        "momentum": 1.35,
+        "value": 0.73,
+        "market_excess": -2.82,
+        "risk_free": 0,
+        "date": "2022-06-10",
+        "market": 1
+      },
+      {
+        "id": 51293,
+        "size": 0.47,
+        "momentum": 0.69,
+        "value": 0.33,
+        "market_excess": -2.14,
+        "risk_free": 0,
+        "date": "2022-06-09",
+        "market": 1
+      },
+      {
+        "id": 51299,
+        "size": 0.32,
+        "momentum": -0.39,
+        "value": -0.55,
+        "market_excess": -0.82,
+        "risk_free": 0,
+        "date": "2022-06-08",
+        "market": 1
+      },
+      {
+        "id": 51305,
+        "size": -0.3,
+        "momentum": 0.35,
+        "value": 0.47,
+        "market_excess": 0.6,
+        "risk_free": 0,
+        "date": "2022-06-07",
+        "market": 1
+      },
+      {
+        "id": 51311,
+        "size": -0.28,
+        "momentum": -0.13,
+        "value": 0.33,
+        "market_excess": 0.32,
+        "risk_free": 0,
+        "date": "2022-06-06",
+        "market": 1
+      },
+      {
+        "id": 51317,
+        "size": 0.84,
+        "momentum": 0.66,
+        "value": 0.43,
+        "market_excess": -1.21,
+        "risk_free": 0,
+        "date": "2022-06-03",
+        "market": 1
+      },
+      {
+        "id": 51323,
+        "size": -0.35,
+        "momentum": -1.05,
+        "value": -0.63,
+        "market_excess": 1.66,
+        "risk_free": 0,
+        "date": "2022-06-02",
+        "market": 1
+      },
+      {
+        "id": 51329,
+        "size": 0.09,
+        "momentum": 0.56,
+        "value": 0.86,
+        "market_excess": -0.78,
+        "risk_free": 0,
+        "date": "2022-06-01",
+        "market": 1
+      },
+      {
+        "id": 51336,
+        "size": -0.17,
+        "momentum": -0.12,
+        "value": 0.15,
+        "market_excess": -0.87,
+        "risk_free": 0,
+        "date": "2022-05-31",
+        "market": 1
+      },
+      {
+        "id": 51342,
+        "size": 0.57,
+        "momentum": -0.35,
+        "value": -0.7,
+        "market_excess": 0.51,
+        "risk_free": 0,
+        "date": "2022-05-30",
+        "market": 1
+      },
+      {
+        "id": 51349,
+        "size": -0.41,
+        "momentum": -0.59,
+        "value": -1.11,
+        "market_excess": 2.04,
+        "risk_free": 0,
+        "date": "2022-05-27",
+        "market": 1
+      },
+      {
+        "id": 51356,
+        "size": -0.51,
+        "momentum": -0.95,
+        "value": -0.39,
+        "market_excess": 1.64,
+        "risk_free": 0,
+        "date": "2022-05-26",
+        "market": 1
+      },
+      {
+        "id": 51363,
+        "size": -0.46,
+        "momentum": -0.57,
+        "value": 0.45,
+        "market_excess": 0.73,
+        "risk_free": 0,
+        "date": "2022-05-25",
+        "market": 1
+      },
+      {
+        "id": 51370,
+        "size": -0.29,
+        "momentum": 1.69,
+        "value": 1.45,
+        "market_excess": -0.88,
+        "risk_free": 0,
+        "date": "2022-05-24",
+        "market": 1
+      },
+      {
+        "id": 51377,
+        "size": -0.51,
+        "momentum": 0.4,
+        "value": 0.12,
+        "market_excess": 1.69,
+        "risk_free": 0,
+        "date": "2022-05-23",
+        "market": 1
+      },
+      {
+        "id": 51384,
+        "size": 0.22,
+        "momentum": 0.07,
+        "value": -0.33,
+        "market_excess": 0.23,
+        "risk_free": 0,
+        "date": "2022-05-20",
+        "market": 1
+      },
+      {
+        "id": 51391,
+        "size": 0.64,
+        "momentum": -0.64,
+        "value": -0.22,
+        "market_excess": -0.28,
+        "risk_free": 0,
+        "date": "2022-05-19",
+        "market": 1
+      },
+      {
+        "id": 51398,
+        "size": 1.42,
+        "momentum": 0.29,
+        "value": 1.14,
+        "market_excess": -2.89,
+        "risk_free": 0,
+        "date": "2022-05-18",
+        "market": 1
+      },
+      {
+        "id": 51405,
+        "size": -0.03,
+        "momentum": -0.77,
+        "value": -0.02,
+        "market_excess": 1.93,
+        "risk_free": 0,
+        "date": "2022-05-17",
+        "market": 1
+      },
+      {
+        "id": 51412,
+        "size": 0.25,
+        "momentum": 1.16,
+        "value": 0.72,
+        "market_excess": -0.16,
+        "risk_free": 0,
+        "date": "2022-05-16",
+        "market": 1
+      },
+      {
+        "id": 51419,
+        "size": 0.25,
+        "momentum": -0.77,
+        "value": -1.51,
+        "market_excess": 2.49,
+        "risk_free": 0,
+        "date": "2022-05-13",
+        "market": 1
+      },
+      {
+        "id": 51426,
+        "size": -0.27,
+        "momentum": -1.32,
+        "value": 0.19,
+        "market_excess": -0.44,
+        "risk_free": 0,
+        "date": "2022-05-12",
+        "market": 1
+      },
+      {
+        "id": 51433,
+        "size": 0.41,
+        "momentum": 0.75,
+        "value": 1.07,
+        "market_excess": -0.91,
+        "risk_free": 0,
+        "date": "2022-05-11",
+        "market": 1
+      },
+      {
+        "id": 51440,
+        "size": -0.51,
+        "momentum": 0.05,
+        "value": -0.62,
+        "market_excess": 0.11,
+        "risk_free": 0,
+        "date": "2022-05-10",
+        "market": 1
+      },
+      {
+        "id": 51447,
+        "size": -0.24,
+        "momentum": -0.72,
+        "value": 1.3,
+        "market_excess": -3.13,
+        "risk_free": 0,
+        "date": "2022-05-09",
+        "market": 1
+      },
+      {
+        "id": 51454,
+        "size": -0.55,
+        "momentum": 0.77,
+        "value": 1.38,
+        "market_excess": -0.94,
+        "risk_free": 0,
+        "date": "2022-05-06",
+        "market": 1
+      },
+      {
+        "id": 51461,
+        "size": 0.53,
+        "momentum": 0.58,
+        "value": 1.17,
+        "market_excess": -2.99,
+        "risk_free": 0,
+        "date": "2022-05-05",
+        "market": 1
+      },
+      {
+        "id": 51468,
+        "size": -0.91,
+        "momentum": 0.05,
+        "value": 0.37,
+        "market_excess": 2.13,
+        "risk_free": 0,
+        "date": "2022-05-04",
+        "market": 1
+      },
+      {
+        "id": 51475,
+        "size": -0.29,
+        "momentum": 0.25,
+        "value": 1.27,
+        "market_excess": 0.47,
+        "risk_free": 0,
+        "date": "2022-05-03",
+        "market": 1
+      },
+      {
+        "id": 51482,
+        "size": -0.41,
+        "momentum": -0.81,
+        "value": -0.02,
+        "market_excess": 0.07,
+        "risk_free": 0,
+        "date": "2022-05-02",
+        "market": 1
+      },
+      {
+        "id": 51489,
+        "size": 1.7,
+        "momentum": -0.14,
+        "value": 0.39,
+        "market_excess": -2.02,
+        "risk_free": 0,
+        "date": "2022-04-29",
+        "market": 1
+      },
+      {
+        "id": 51496,
+        "size": -1.04,
+        "momentum": 0,
+        "value": 0.05,
+        "market_excess": 1.67,
+        "risk_free": 0,
+        "date": "2022-04-28",
+        "market": 1
+      },
+      {
+        "id": 51503,
+        "size": -0.77,
+        "momentum": 0.86,
+        "value": 0.1,
+        "market_excess": -0.04,
+        "risk_free": 0,
+        "date": "2022-04-27",
+        "market": 1
+      },
+      {
+        "id": 51510,
+        "size": 0.48,
+        "momentum": 0.23,
+        "value": 1.16,
+        "market_excess": -2.35,
+        "risk_free": 0,
+        "date": "2022-04-26",
+        "market": 1
+      },
+      {
+        "id": 51517,
+        "size": -0.58,
+        "momentum": -0.48,
+        "value": -0.99,
+        "market_excess": -0.26,
+        "risk_free": 0,
+        "date": "2022-04-25",
+        "market": 1
+      },
+      {
+        "id": 51524,
+        "size": 0.47,
+        "momentum": -0.24,
+        "value": 0.24,
+        "market_excess": -2.46,
+        "risk_free": 0,
+        "date": "2022-04-22",
+        "market": 1
+      },
+      {
+        "id": 51531,
+        "size": 0.13,
+        "momentum": -0.42,
+        "value": 0.08,
+        "market_excess": -1.14,
+        "risk_free": 0,
+        "date": "2022-04-21",
+        "market": 1
+      },
+      {
+        "id": 51538,
+        "size": 0.23,
+        "momentum": 0.69,
+        "value": 1.01,
+        "market_excess": 0.39,
+        "risk_free": 0,
+        "date": "2022-04-20",
+        "market": 1
+      },
+      {
+        "id": 51545,
+        "size": -0.56,
+        "momentum": -0.72,
+        "value": -0.06,
+        "market_excess": 0.99,
+        "risk_free": 0,
+        "date": "2022-04-19",
+        "market": 1
+      },
+      {
+        "id": 51552,
+        "size": -0.48,
+        "momentum": 0.71,
+        "value": 0.75,
+        "market_excess": -0.31,
+        "risk_free": 0,
+        "date": "2022-04-18",
+        "market": 1
+      },
+      {
+        "id": 51558,
+        "size": -0.22,
+        "momentum": 0.07,
+        "value": 0.12,
+        "market_excess": -0.13,
+        "risk_free": 0,
+        "date": "2022-04-15",
+        "market": 1
+      },
+      {
+        "id": 51565,
+        "size": 0.55,
+        "momentum": 0.43,
+        "value": 0.92,
+        "market_excess": -0.72,
+        "risk_free": 0,
+        "date": "2022-04-14",
+        "market": 1
+      },
+      {
+        "id": 51572,
+        "size": 0.26,
+        "momentum": -0.07,
+        "value": -0.55,
+        "market_excess": 1.15,
+        "risk_free": 0,
+        "date": "2022-04-13",
+        "market": 1
+      },
+      {
+        "id": 51579,
+        "size": 0.18,
+        "momentum": 0.42,
+        "value": 0.31,
+        "market_excess": -0.44,
+        "risk_free": 0,
+        "date": "2022-04-12",
+        "market": 1
+      },
+      {
+        "id": 51586,
+        "size": 0.1,
+        "momentum": -0.12,
+        "value": 1.24,
+        "market_excess": -1.27,
+        "risk_free": 0,
+        "date": "2022-04-11",
+        "market": 1
+      },
+      {
+        "id": 51593,
+        "size": -0.16,
+        "momentum": 0.56,
+        "value": 1.21,
+        "market_excess": 0,
+        "risk_free": 0,
+        "date": "2022-04-08",
+        "market": 1
+      },
+      {
+        "id": 51600,
+        "size": -0.67,
+        "momentum": 0.69,
+        "value": 0.01,
+        "market_excess": 0.02,
+        "risk_free": 0,
+        "date": "2022-04-07",
+        "market": 1
+      },
+      {
+        "id": 51607,
+        "size": -0.31,
+        "momentum": 1.07,
+        "value": 1.04,
+        "market_excess": -1.3,
+        "risk_free": 0,
+        "date": "2022-04-06",
+        "market": 1
+      },
+      {
+        "id": 51614,
+        "size": 0.11,
+        "momentum": 0.7,
+        "value": -0.08,
+        "market_excess": -1.15,
+        "risk_free": 0,
+        "date": "2022-04-05",
+        "market": 1
+      },
+      {
+        "id": 51621,
+        "size": 0.1,
+        "momentum": -0.79,
+        "value": -1.68,
+        "market_excess": 0.69,
+        "risk_free": 0,
+        "date": "2022-04-04",
+        "market": 1
+      },
+      {
+        "id": 51628,
+        "size": 0.09,
+        "momentum": -0.08,
+        "value": 0.04,
+        "market_excess": 0.28,
+        "risk_free": 0,
+        "date": "2022-04-01",
+        "market": 1
+      },
+      {
+        "id": 51634,
+        "size": 0.52,
+        "momentum": 0.46,
+        "value": -0.12,
+        "market_excess": -1.44,
+        "risk_free": 0,
+        "date": "2022-03-31",
+        "market": 1
+      },
+      {
+        "id": 51641,
+        "size": 0.21,
+        "momentum": 0.92,
+        "value": -0.06,
+        "market_excess": -0.37,
+        "risk_free": 0,
+        "date": "2022-03-30",
+        "market": 1
+      },
+      {
+        "id": 51648,
+        "size": 0.64,
+        "momentum": -1.37,
+        "value": -1.45,
+        "market_excess": 1.66,
+        "risk_free": 0,
+        "date": "2022-03-29",
+        "market": 1
+      },
+      {
+        "id": 51655,
+        "size": -0.96,
+        "momentum": -0.33,
+        "value": -0.79,
+        "market_excess": 0.31,
+        "risk_free": 0,
+        "date": "2022-03-28",
+        "market": 1
+      },
+      {
+        "id": 51662,
+        "size": -0.29,
+        "momentum": 0.66,
+        "value": 1.12,
+        "market_excess": 0.23,
+        "risk_free": 0,
+        "date": "2022-03-25",
+        "market": 1
+      },
+      {
+        "id": 51669,
+        "size": -0.83,
+        "momentum": 0.06,
+        "value": -0.4,
+        "market_excess": 0.76,
+        "risk_free": 0,
+        "date": "2022-03-24",
+        "market": 1
+      },
+      {
+        "id": 51676,
+        "size": 0.56,
+        "momentum": 0.75,
+        "value": -0.04,
+        "market_excess": -0.88,
+        "risk_free": 0,
+        "date": "2022-03-23",
+        "market": 1
+      },
+      {
+        "id": 51683,
+        "size": -0.45,
+        "momentum": -0.14,
+        "value": -0.3,
+        "market_excess": 1.06,
+        "risk_free": 0,
+        "date": "2022-03-22",
+        "market": 1
+      },
+      {
+        "id": 51690,
+        "size": -0.33,
+        "momentum": 1.23,
+        "value": 0.99,
+        "market_excess": -0.18,
+        "risk_free": 0,
+        "date": "2022-03-21",
+        "market": 1
+      },
+      {
+        "id": 51697,
+        "size": -0.11,
+        "momentum": -0.34,
+        "value": -1.51,
+        "market_excess": 1,
+        "risk_free": 0,
+        "date": "2022-03-18",
+        "market": 1
+      },
+      {
+        "id": 51704,
+        "size": 0.39,
+        "momentum": -0.23,
+        "value": -0.76,
+        "market_excess": 1.48,
+        "risk_free": 0,
+        "date": "2022-03-17",
+        "market": 1
+      },
+      {
+        "id": 51711,
+        "size": 0.08,
+        "momentum": -0.66,
+        "value": -1.6,
+        "market_excess": 2.75,
+        "risk_free": 0,
+        "date": "2022-03-16",
+        "market": 1
+      },
+      {
+        "id": 51718,
+        "size": -1.1,
+        "momentum": -0.06,
+        "value": -0.89,
+        "market_excess": 1.24,
+        "risk_free": 0,
+        "date": "2022-03-15",
+        "market": 1
+      },
+      {
+        "id": 51725,
+        "size": -0.38,
+        "momentum": 0.49,
+        "value": 0.85,
+        "market_excess": -0.41,
+        "risk_free": 0,
+        "date": "2022-03-14",
+        "market": 1
+      },
+      {
+        "id": 51732,
+        "size": 0.02,
+        "momentum": 0.51,
+        "value": 1.12,
+        "market_excess": -1.09,
+        "risk_free": 0,
+        "date": "2022-03-11",
+        "market": 1
+      },
+      {
+        "id": 51739,
+        "size": 0.84,
+        "momentum": 0.5,
+        "value": 0.71,
+        "market_excess": -0.33,
+        "risk_free": 0,
+        "date": "2022-03-10",
+        "market": 1
+      },
+      {
+        "id": 51746,
+        "size": -0.49,
+        "momentum": 0.09,
+        "value": -1.47,
+        "market_excess": 3.11,
+        "risk_free": 0,
+        "date": "2022-03-09",
+        "market": 1
+      },
+      {
+        "id": 51753,
+        "size": 0.36,
+        "momentum": -0.76,
+        "value": 0.4,
+        "market_excess": -0.53,
+        "risk_free": 0,
+        "date": "2022-03-08",
+        "market": 1
+      },
+      {
+        "id": 51760,
+        "size": 0.4,
+        "momentum": 0.36,
+        "value": 0.99,
+        "market_excess": -2.78,
+        "risk_free": 0,
+        "date": "2022-03-07",
+        "market": 1
+      },
+      {
+        "id": 51767,
+        "size": -0.52,
+        "momentum": 0.65,
+        "value": 0.78,
+        "market_excess": -1.8,
+        "risk_free": 0,
+        "date": "2022-03-04",
+        "market": 1
+      },
+      {
+        "id": 51774,
+        "size": -0.21,
+        "momentum": 0.95,
+        "value": 1.39,
+        "market_excess": -0.94,
+        "risk_free": 0,
+        "date": "2022-03-03",
+        "market": 1
+      },
+      {
+        "id": 51781,
+        "size": -0.77,
+        "momentum": 0.73,
+        "value": 0.57,
+        "market_excess": 1.19,
+        "risk_free": 0,
+        "date": "2022-03-02",
+        "market": 1
+      },
+      {
+        "id": 51788,
+        "size": 0.61,
+        "momentum": 0.53,
+        "value": -0.83,
+        "market_excess": -1.67,
+        "risk_free": 0,
+        "date": "2022-03-01",
+        "market": 1
+      },
+      {
+        "id": 147833,
+        "size": -0.46,
+        "momentum": -1.02,
+        "value": -0.07,
+        "market_excess": 0.51,
+        "risk_free": 0,
+        "date": "2022-07-01",
+        "market": 1
+      },
+      {
+        "id": 147834,
+        "size": -0.06,
+        "momentum": 0.42,
+        "value": 0.22,
+        "market_excess": 0.2,
+        "risk_free": 0,
+        "date": "2022-07-04",
+        "market": 1
+      },
+      {
+        "id": 147835,
+        "size": 0.46,
+        "momentum": -3.3,
+        "value": -2.51,
+        "market_excess": -0.49,
+        "risk_free": 0,
+        "date": "2022-07-05",
+        "market": 1
+      },
+      {
+        "id": 147836,
+        "size": -0.28,
+        "momentum": -0.8,
+        "value": -1.55,
+        "market_excess": 0.09,
+        "risk_free": 0,
+        "date": "2022-07-06",
+        "market": 1
+      },
+      {
+        "id": 147837,
+        "size": 0.23,
+        "momentum": -0.19,
+        "value": -0.14,
+        "market_excess": 1.72,
+        "risk_free": 0,
+        "date": "2022-07-07",
+        "market": 1
+      },
+      {
+        "id": 147838,
+        "size": 0.32,
+        "momentum": 0.41,
+        "value": -0.07,
+        "market_excess": 0.12,
+        "risk_free": 0,
+        "date": "2022-07-08",
+        "market": 1
+      },
+      {
+        "id": 147839,
+        "size": -0.58,
+        "momentum": 1.36,
+        "value": 0.88,
+        "market_excess": -1.36,
+        "risk_free": 0,
+        "date": "2022-07-11",
+        "market": 1
+      },
+      {
+        "id": 147840,
+        "size": 0.1,
+        "momentum": -0.19,
+        "value": 0.58,
+        "market_excess": -0.63,
+        "risk_free": 0,
+        "date": "2022-07-12",
+        "market": 1
+      },
+      {
+        "id": 147841,
+        "size": 0.32,
+        "momentum": 0.04,
+        "value": -0.12,
+        "market_excess": -0.37,
+        "risk_free": 0,
+        "date": "2022-07-13",
+        "market": 1
+      },
+      {
+        "id": 147842,
+        "size": -0.06,
+        "momentum": 0.07,
+        "value": -1.09,
+        "market_excess": -0.82,
+        "risk_free": 0,
+        "date": "2022-07-14",
+        "market": 1
+      },
+      {
+        "id": 147843,
+        "size": -0.49,
+        "momentum": -0.53,
+        "value": 0.08,
+        "market_excess": 1.73,
+        "risk_free": 0,
+        "date": "2022-07-15",
+        "market": 1
+      },
+      {
+        "id": 147844,
+        "size": 0.74,
+        "momentum": 0.07,
+        "value": 0.6,
+        "market_excess": 0.03,
+        "risk_free": 0,
+        "date": "2022-07-18",
+        "market": 1
+      },
+      {
+        "id": 147845,
+        "size": -0.38,
+        "momentum": -0.89,
+        "value": 0.1,
+        "market_excess": 2.42,
+        "risk_free": 0,
+        "date": "2022-07-19",
+        "market": 1
+      },
+      {
+        "id": 147846,
+        "size": 0.82,
+        "momentum": -1.95,
+        "value": -1.04,
+        "market_excess": 0.66,
+        "risk_free": 0,
+        "date": "2022-07-20",
+        "market": 1
+      },
+      {
+        "id": 147847,
+        "size": 0.26,
+        "momentum": -1.3,
+        "value": -1.48,
+        "market_excess": 0.9,
+        "risk_free": 0,
+        "date": "2022-07-21",
+        "market": 1
+      },
+      {
+        "id": 147848,
+        "size": 0.15,
+        "momentum": 1,
+        "value": 0.49,
+        "market_excess": -0.64,
+        "risk_free": 0,
+        "date": "2022-07-22",
+        "market": 1
+      },
+      {
+        "id": 147849,
+        "size": -0.35,
+        "momentum": 1.53,
+        "value": 1.31,
+        "market_excess": 0.1,
+        "risk_free": 0,
+        "date": "2022-07-25",
+        "market": 1
+      },
+      {
+        "id": 147850,
+        "size": 0.1,
+        "momentum": 1.87,
+        "value": 0.76,
+        "market_excess": -1.1,
+        "risk_free": 0,
+        "date": "2022-07-26",
+        "market": 1
+      },
+      {
+        "id": 147851,
+        "size": -0.38,
+        "momentum": -1.19,
+        "value": -0.97,
+        "market_excess": 2.11,
+        "risk_free": 0,
+        "date": "2022-07-27",
+        "market": 1
+      },
+      {
+        "id": 147852,
+        "size": 0.29,
+        "momentum": -0.64,
+        "value": -0.84,
+        "market_excess": 1.22,
+        "risk_free": 0,
+        "date": "2022-07-28",
+        "market": 1
+      },
+      {
+        "id": 147853,
+        "size": -0.46,
+        "momentum": -0.66,
+        "value": -0.31,
+        "market_excess": 1.29,
+        "risk_free": 0,
+        "date": "2022-07-29",
+        "market": 1
+      },
+      {
+        "id": 147854,
+        "size": 0.44,
+        "momentum": -0.32,
+        "value": -0.18,
+        "market_excess": 0.11,
+        "risk_free": 0.01,
+        "date": "2022-08-01",
+        "market": 1
+      },
+      {
+        "id": 147855,
+        "size": -0.13,
+        "momentum": -0.04,
+        "value": -0.31,
+        "market_excess": -0.91,
+        "risk_free": 0.01,
+        "date": "2022-08-02",
+        "market": 1
+      },
+      {
+        "id": 147856,
+        "size": 0.03,
+        "momentum": -2.18,
+        "value": -1.47,
+        "market_excess": 1.19,
+        "risk_free": 0.01,
+        "date": "2022-08-03",
+        "market": 1
+      },
+      {
+        "id": 147857,
+        "size": 0.59,
+        "momentum": -1.15,
+        "value": -1.23,
+        "market_excess": 0.25,
+        "risk_free": 0.01,
+        "date": "2022-08-04",
+        "market": 1
+      },
+      {
+        "id": 147858,
+        "size": 0.12,
+        "momentum": 0.12,
+        "value": 0.62,
+        "market_excess": -0.36,
+        "risk_free": 0.01,
+        "date": "2022-08-05",
+        "market": 1
+      },
+      {
+        "id": 147859,
+        "size": 0.43,
+        "momentum": -0.1,
+        "value": 0.3,
+        "market_excess": 0.25,
+        "risk_free": 0.01,
+        "date": "2022-08-08",
+        "market": 1
+      },
+      {
+        "id": 147860,
+        "size": -0.67,
+        "momentum": 2.09,
+        "value": 1.14,
+        "market_excess": -0.63,
+        "risk_free": 0.01,
+        "date": "2022-08-09",
+        "market": 1
+      },
+      {
+        "id": 147861,
+        "size": 0.36,
+        "momentum": -2.24,
+        "value": -0.73,
+        "market_excess": 2.11,
+        "risk_free": 0.01,
+        "date": "2022-08-10",
+        "market": 1
+      },
+      {
+        "id": 147862,
+        "size": 0.21,
+        "momentum": 0.21,
+        "value": 0.86,
+        "market_excess": 0.12,
+        "risk_free": 0.01,
+        "date": "2022-08-11",
+        "market": 1
+      },
+      {
+        "id": 147863,
+        "size": -0.15,
+        "momentum": -0.52,
+        "value": -0.18,
+        "market_excess": 1.17,
+        "risk_free": 0.01,
+        "date": "2022-08-12",
+        "market": 1
+      },
+      {
+        "id": 147864,
+        "size": -0.33,
+        "momentum": -0.14,
+        "value": -0.65,
+        "market_excess": 0.06,
+        "risk_free": 0.01,
+        "date": "2022-08-15",
+        "market": 1
+      },
+      {
+        "id": 147865,
+        "size": -0.31,
+        "momentum": 0.35,
+        "value": 0.43,
+        "market_excess": 0.16,
+        "risk_free": 0.01,
+        "date": "2022-08-16",
+        "market": 1
+      },
+      {
+        "id": 147866,
+        "size": -0.54,
+        "momentum": 1.67,
+        "value": 0.48,
+        "market_excess": -0.8,
+        "risk_free": 0.01,
+        "date": "2022-08-17",
+        "market": 1
+      },
+      {
+        "id": 147867,
+        "size": -0.23,
+        "momentum": 0.69,
+        "value": 0.4,
+        "market_excess": -0.06,
+        "risk_free": 0.01,
+        "date": "2022-08-18",
+        "market": 1
+      },
+      {
+        "id": 147868,
+        "size": -0.51,
+        "momentum": 1.7,
+        "value": 0.65,
+        "market_excess": -1.33,
+        "risk_free": 0.01,
+        "date": "2022-08-19",
+        "market": 1
+      },
+      {
+        "id": 147869,
+        "size": -0.03,
+        "momentum": 1.64,
+        "value": 0.75,
+        "market_excess": -1.91,
+        "risk_free": 0.01,
+        "date": "2022-08-22",
+        "market": 1
+      },
+      {
+        "id": 147870,
+        "size": 0.24,
+        "momentum": 0.46,
+        "value": 0.64,
+        "market_excess": -0.13,
+        "risk_free": 0.01,
+        "date": "2022-08-23",
+        "market": 1
+      },
+      {
+        "id": 147871,
+        "size": 0.24,
+        "momentum": -0.31,
+        "value": -0.12,
+        "market_excess": 0.26,
+        "risk_free": 0.01,
+        "date": "2022-08-24",
+        "market": 1
+      },
+      {
+        "id": 147872,
+        "size": -0.15,
+        "momentum": -0.67,
+        "value": -0.24,
+        "market_excess": 1.19,
+        "risk_free": 0.01,
+        "date": "2022-08-25",
+        "market": 1
+      },
+      {
+        "id": 147873,
+        "size": 0.45,
+        "momentum": 1.62,
+        "value": 1.02,
+        "market_excess": -2.68,
+        "risk_free": 0.01,
+        "date": "2022-08-26",
+        "market": 1
+      },
+      {
+        "id": 147874,
+        "size": -0.52,
+        "momentum": 0.58,
+        "value": 0.97,
+        "market_excess": -0.82,
+        "risk_free": 0.01,
+        "date": "2022-08-29",
+        "market": 1
+      },
+      {
+        "id": 147875,
+        "size": 0.31,
+        "momentum": -0.74,
+        "value": -0.38,
+        "market_excess": -0.79,
+        "risk_free": 0.01,
+        "date": "2022-08-30",
+        "market": 1
+      },
+      {
+        "id": 147876,
+        "size": 0.59,
+        "momentum": -0.17,
+        "value": -0.28,
+        "market_excess": -0.68,
+        "risk_free": 0.01,
+        "date": "2022-08-31",
+        "market": 1
+      },
+      {
+        "id": 147877,
+        "size": -1.37,
+        "momentum": 0.31,
+        "value": 0.37,
+        "market_excess": -0.83,
+        "risk_free": 0.01,
+        "date": "2022-09-01",
+        "market": 1
+      },
+      {
+        "id": 147878,
+        "size": 0.18,
+        "momentum": 0.27,
+        "value": 0.68,
+        "market_excess": -0.3,
+        "risk_free": 0.01,
+        "date": "2022-09-02",
+        "market": 1
+      },
+      {
+        "id": 147879,
+        "size": -0.3,
+        "momentum": 0.33,
+        "value": 0.11,
+        "market_excess": -0.2,
+        "risk_free": 0.01,
+        "date": "2022-09-05",
+        "market": 1
+      },
+      {
+        "id": 147880,
+        "size": -0.22,
+        "momentum": -0.04,
+        "value": -0.26,
+        "market_excess": -0.57,
+        "risk_free": 0.01,
+        "date": "2022-09-06",
+        "market": 1
+      },
+      {
+        "id": 147881,
+        "size": -0.45,
+        "momentum": -1.27,
+        "value": -0.73,
+        "market_excess": 1.26,
+        "risk_free": 0.01,
+        "date": "2022-09-07",
+        "market": 1
+      },
+      {
+        "id": 147882,
+        "size": 0.05,
+        "momentum": -0.39,
+        "value": -0.07,
+        "market_excess": 0.76,
+        "risk_free": 0.01,
+        "date": "2022-09-08",
+        "market": 1
+      },
+      {
+        "id": 147883,
+        "size": 0.25,
+        "momentum": -0.63,
+        "value": -0.42,
+        "market_excess": 1.78,
+        "risk_free": 0.01,
+        "date": "2022-09-09",
+        "market": 1
+      },
+      {
+        "id": 147884,
+        "size": -0.04,
+        "momentum": -0.3,
+        "value": -0.05,
+        "market_excess": 1.32,
+        "risk_free": 0.01,
+        "date": "2022-09-12",
+        "market": 1
+      },
+      {
+        "id": 147885,
+        "size": 0.65,
+        "momentum": 1.67,
+        "value": 1.12,
+        "market_excess": -3.56,
+        "risk_free": 0.01,
+        "date": "2022-09-13",
+        "market": 1
+      },
+      {
+        "id": 147886,
+        "size": -0.37,
+        "momentum": 0.62,
+        "value": 0.27,
+        "market_excess": 0,
+        "risk_free": 0.01,
+        "date": "2022-09-14",
+        "market": 1
+      },
+      {
+        "id": 147887,
+        "size": 0.2,
+        "momentum": -0.08,
+        "value": 0.6,
+        "market_excess": -0.83,
+        "risk_free": 0.01,
+        "date": "2022-09-15",
+        "market": 1
+      },
+      {
+        "id": 147888,
+        "size": -0.29,
+        "momentum": 0.72,
+        "value": 0.46,
+        "market_excess": -0.99,
+        "risk_free": 0.01,
+        "date": "2022-09-16",
+        "market": 1
+      },
+      {
+        "id": 147889,
+        "size": -0.59,
+        "momentum": 0.33,
+        "value": 0.42,
+        "market_excess": 0.46,
+        "risk_free": 0.01,
+        "date": "2022-09-19",
+        "market": 1
+      },
+      {
+        "id": 147890,
+        "size": 0.01,
+        "momentum": 1.06,
+        "value": 0.05,
+        "market_excess": -1.13,
+        "risk_free": 0.01,
+        "date": "2022-09-20",
+        "market": 1
+      },
+      {
+        "id": 147891,
+        "size": 0.28,
+        "momentum": 0.49,
+        "value": 0.06,
+        "market_excess": -1.44,
+        "risk_free": 0.01,
+        "date": "2022-09-21",
+        "market": 1
+      },
+      {
+        "id": 147892,
+        "size": -0.43,
+        "momentum": 1.05,
+        "value": 0.7,
+        "market_excess": -1.1,
+        "risk_free": 0.01,
+        "date": "2022-09-22",
+        "market": 1
+      },
+      {
+        "id": 147893,
+        "size": -0.23,
+        "momentum": -0.63,
+        "value": -0.72,
+        "market_excess": -2.25,
+        "risk_free": 0.01,
+        "date": "2022-09-23",
+        "market": 1
+      },
+      {
+        "id": 147894,
+        "size": -0.46,
+        "momentum": -0.16,
+        "value": -0.85,
+        "market_excess": -1.38,
+        "risk_free": 0.01,
+        "date": "2022-09-26",
+        "market": 1
+      },
+      {
+        "id": 147895,
+        "size": 0.3,
+        "momentum": 0.56,
+        "value": -0.38,
+        "market_excess": -0.03,
+        "risk_free": 0.01,
+        "date": "2022-09-27",
+        "market": 1
+      },
+      {
+        "id": 147896,
+        "size": -0.13,
+        "momentum": -0.88,
+        "value": 0,
+        "market_excess": 1.77,
+        "risk_free": 0.01,
+        "date": "2022-09-28",
+        "market": 1
+      },
+      {
+        "id": 147897,
+        "size": 0.46,
+        "momentum": 1.12,
+        "value": 0.39,
+        "market_excess": -1.51,
+        "risk_free": 0.01,
+        "date": "2022-09-29",
+        "market": 1
+      },
+      {
+        "id": 147898,
+        "size": 0.67,
+        "momentum": 0.06,
+        "value": 0.29,
+        "market_excess": -0.94,
+        "risk_free": 0.01,
+        "date": "2022-09-30",
+        "market": 1
+      },
+      {
+        "id": 147899,
+        "size": -0.71,
+        "momentum": -0.04,
+        "value": 0.66,
+        "market_excess": 2.12,
+        "risk_free": 0.01,
+        "date": "2022-10-03",
+        "market": 1
+      },
+      {
+        "id": 147900,
+        "size": 0.13,
+        "momentum": -1.44,
+        "value": -0.36,
+        "market_excess": 3.57,
+        "risk_free": 0.01,
+        "date": "2022-10-04",
+        "market": 1
+      },
+      {
+        "id": 147901,
+        "size": -0.27,
+        "momentum": 0.32,
+        "value": -0.18,
+        "market_excess": -0.51,
+        "risk_free": 0.01,
+        "date": "2022-10-05",
+        "market": 1
+      },
+      {
+        "id": 147902,
+        "size": 0.65,
+        "momentum": -0.02,
+        "value": -0.11,
+        "market_excess": -0.94,
+        "risk_free": 0.01,
+        "date": "2022-10-06",
+        "market": 1
+      },
+      {
+        "id": 147903,
+        "size": 0.11,
+        "momentum": 2.07,
+        "value": 1.49,
+        "market_excess": -2.42,
+        "risk_free": 0.01,
+        "date": "2022-10-07",
+        "market": 1
+      },
+      {
+        "id": 147904,
+        "size": -0.24,
+        "momentum": 0.57,
+        "value": 0.72,
+        "market_excess": -0.79,
+        "risk_free": 0.01,
+        "date": "2022-10-10",
+        "market": 1
+      },
+      {
+        "id": 147905,
+        "size": 0.05,
+        "momentum": 0.63,
+        "value": 0.14,
+        "market_excess": -0.89,
+        "risk_free": 0.01,
+        "date": "2022-10-11",
+        "market": 1
+      },
+      {
+        "id": 147906,
+        "size": -0.11,
+        "momentum": -0.18,
+        "value": -0.21,
+        "market_excess": -0.33,
+        "risk_free": 0.01,
+        "date": "2022-10-12",
+        "market": 1
+      },
+      {
+        "id": 147907,
+        "size": -0.97,
+        "momentum": -0.01,
+        "value": 1.17,
+        "market_excess": 1.87,
+        "risk_free": 0.01,
+        "date": "2022-10-13",
+        "market": 1
+      },
+      {
+        "id": 147908,
+        "size": 0.62,
+        "momentum": 0.57,
+        "value": 0.32,
+        "market_excess": -1.6,
+        "risk_free": 0.01,
+        "date": "2022-10-14",
+        "market": 1
+      },
+      {
+        "id": 147909,
+        "size": -0.48,
+        "momentum": -1.5,
+        "value": -0.7,
+        "market_excess": 2.34,
+        "risk_free": 0.01,
+        "date": "2022-10-17",
+        "market": 1
+      },
+      {
+        "id": 147910,
+        "size": 0.12,
+        "momentum": -0.52,
+        "value": -0.46,
+        "market_excess": 1.1,
+        "risk_free": 0.01,
+        "date": "2022-10-18",
+        "market": 1
+      },
+      {
+        "id": 147911,
+        "size": -0.6,
+        "momentum": 1.37,
+        "value": 0.85,
+        "market_excess": -0.99,
+        "risk_free": 0.01,
+        "date": "2022-10-19",
+        "market": 1
+      },
+      {
+        "id": 147912,
+        "size": 0,
+        "momentum": -0.09,
+        "value": 0.02,
+        "market_excess": -0.53,
+        "risk_free": 0.01,
+        "date": "2022-10-20",
+        "market": 1
+      },
+      {
+        "id": 147913,
+        "size": -0.53,
+        "momentum": -0.05,
+        "value": 0.18,
+        "market_excess": 1.7,
+        "risk_free": 0.01,
+        "date": "2022-10-21",
+        "market": 1
+      },
+      {
+        "id": 147914,
+        "size": -0.79,
+        "momentum": 0.25,
+        "value": -0.19,
+        "market_excess": 0.8,
+        "risk_free": 0.01,
+        "date": "2022-10-24",
+        "market": 1
+      },
+      {
+        "id": 147915,
+        "size": 0.67,
+        "momentum": -1.76,
+        "value": -1.3,
+        "market_excess": 1.88,
+        "risk_free": 0.01,
+        "date": "2022-10-25",
+        "market": 1
+      },
+      {
+        "id": 147916,
+        "size": 0.99,
+        "momentum": 0.6,
+        "value": 0.71,
+        "market_excess": 0.19,
+        "risk_free": 0.01,
+        "date": "2022-10-26",
+        "market": 1
+      },
+      {
+        "id": 147917,
+        "size": 0.14,
+        "momentum": 0.42,
+        "value": 0.96,
+        "market_excess": -0.59,
+        "risk_free": 0.01,
+        "date": "2022-10-27",
+        "market": 1
+      },
+      {
+        "id": 147918,
+        "size": -1.05,
+        "momentum": 0.36,
+        "value": -0.25,
+        "market_excess": 1.33,
+        "risk_free": 0.01,
+        "date": "2022-10-28",
+        "market": 1
+      },
+      {
+        "id": 147919,
+        "size": 0.37,
+        "momentum": 0.58,
+        "value": 0.58,
+        "market_excess": -0.5,
+        "risk_free": 0.01,
+        "date": "2022-10-31",
+        "market": 1
+      },
+      {
+        "id": 147920,
+        "size": 0.38,
+        "momentum": 0.14,
+        "value": 0.67,
+        "market_excess": 0.1,
+        "risk_free": 0.01,
+        "date": "2022-11-01",
+        "market": 1
+      },
+      {
+        "id": 147921,
+        "size": 0.21,
+        "momentum": 1.76,
+        "value": 0.99,
+        "market_excess": -1.95,
+        "risk_free": 0.01,
+        "date": "2022-11-02",
+        "market": 1
+      },
+      {
+        "id": 147922,
+        "size": 0.12,
+        "momentum": 1.15,
+        "value": 0.97,
+        "market_excess": -1.1,
+        "risk_free": 0.01,
+        "date": "2022-11-03",
+        "market": 1
+      },
+      {
+        "id": 147923,
+        "size": -0.24,
+        "momentum": -0.45,
+        "value": 0.57,
+        "market_excess": 1.84,
+        "risk_free": 0.01,
+        "date": "2022-11-04",
+        "market": 1
+      },
+      {
+        "id": 147924,
+        "size": 0.03,
+        "momentum": -0.37,
+        "value": -0.11,
+        "market_excess": 0.94,
+        "risk_free": 0.01,
+        "date": "2022-11-07",
+        "market": 1
+      },
+      {
+        "id": 147925,
+        "size": 0.06,
+        "momentum": -0.5,
+        "value": -0.68,
+        "market_excess": 0.74,
+        "risk_free": 0.01,
+        "date": "2022-11-08",
+        "market": 1
+      },
+      {
+        "id": 147926,
+        "size": 0.04,
+        "momentum": 0.64,
+        "value": 0.17,
+        "market_excess": -1.76,
+        "risk_free": 0.01,
+        "date": "2022-11-09",
+        "market": 1
+      },
+      {
+        "id": 147927,
+        "size": -0.1,
+        "momentum": -4.69,
+        "value": -2.36,
+        "market_excess": 5.03,
+        "risk_free": 0.01,
+        "date": "2022-11-10",
+        "market": 1
+      },
+      {
+        "id": 147928,
+        "size": 1.06,
+        "momentum": -3.68,
+        "value": -1.55,
+        "market_excess": 1.61,
+        "risk_free": 0.01,
+        "date": "2022-11-11",
+        "market": 1
+      },
+      {
+        "id": 147929,
+        "size": -0.08,
+        "momentum": 0.74,
+        "value": -0.01,
+        "market_excess": -0.81,
+        "risk_free": 0.01,
+        "date": "2022-11-14",
+        "market": 1
+      },
+      {
+        "id": 147930,
+        "size": 0,
+        "momentum": -0.71,
+        "value": -0.28,
+        "market_excess": 0.86,
+        "risk_free": 0.01,
+        "date": "2022-11-15",
+        "market": 1
+      },
+      {
+        "id": 147931,
+        "size": -0.51,
+        "momentum": 1.58,
+        "value": 0.39,
+        "market_excess": -0.8,
+        "risk_free": 0.01,
+        "date": "2022-11-16",
+        "market": 1
+      },
+      {
+        "id": 147932,
+        "size": -0.16,
+        "momentum": 1.04,
+        "value": 0.29,
+        "market_excess": -0.45,
+        "risk_free": 0.01,
+        "date": "2022-11-17",
+        "market": 1
+      },
+      {
+        "id": 147933,
+        "size": -0.33,
+        "momentum": 0.63,
+        "value": 0.3,
+        "market_excess": 0.33,
+        "risk_free": 0.01,
+        "date": "2022-11-18",
+        "market": 1
+      },
+      {
+        "id": 147934,
+        "size": -0.25,
+        "momentum": 0.96,
+        "value": 0.53,
+        "market_excess": -0.64,
+        "risk_free": 0.01,
+        "date": "2022-11-21",
+        "market": 1
+      },
+      {
+        "id": 147935,
+        "size": -0.38,
+        "momentum": 0.42,
+        "value": 0.63,
+        "market_excess": 1.31,
+        "risk_free": 0.01,
+        "date": "2022-11-22",
+        "market": 1
+      },
+      {
+        "id": 147936,
+        "size": 0.24,
+        "momentum": -0.94,
+        "value": -0.78,
+        "market_excess": 0.84,
+        "risk_free": 0.01,
+        "date": "2022-11-23",
+        "market": 1
+      },
+      {
+        "id": 147937,
+        "size": 0.43,
+        "momentum": -0.35,
+        "value": -0.15,
+        "market_excess": 0.34,
+        "risk_free": 0.01,
+        "date": "2022-11-24",
+        "market": 1
+      },
+      {
+        "id": 147938,
+        "size": 0.03,
+        "momentum": 0.5,
+        "value": 0.54,
+        "market_excess": -0.09,
+        "risk_free": 0.01,
+        "date": "2022-11-25",
+        "market": 1
+      },
+      {
+        "id": 147939,
+        "size": -0.13,
+        "momentum": 0.58,
+        "value": -0.21,
+        "market_excess": -1.41,
+        "risk_free": 0.01,
+        "date": "2022-11-28",
+        "market": 1
+      },
+      {
+        "id": 147940,
+        "size": 0,
+        "momentum": 0.61,
+        "value": 0.98,
+        "market_excess": -0.12,
+        "risk_free": 0.01,
+        "date": "2022-11-29",
+        "market": 1
+      },
+      {
+        "id": 147941,
+        "size": -0.64,
+        "momentum": -1.52,
+        "value": -1.4,
+        "market_excess": 2.45,
+        "risk_free": 0.01,
+        "date": "2022-11-30",
+        "market": 1
+      },
+      {
+        "id": 147942,
+        "size": 0.85,
+        "momentum": -0.96,
+        "value": -1.1,
+        "market_excess": 0.62,
+        "risk_free": 0.02,
+        "date": "2022-12-01",
+        "market": 1
+      },
+      {
+        "id": 147943,
+        "size": 0.41,
+        "momentum": -0.1,
+        "value": -0.2,
+        "market_excess": -0.15,
+        "risk_free": 0.02,
+        "date": "2022-12-02",
+        "market": 1
+      },
+      {
+        "id": 147944,
+        "size": -0.13,
+        "momentum": 0.33,
+        "value": -0.19,
+        "market_excess": -1.67,
+        "risk_free": 0.02,
+        "date": "2022-12-05",
+        "market": 1
+      },
+      {
+        "id": 147945,
+        "size": -0.22,
+        "momentum": 1.07,
+        "value": 1,
+        "market_excess": -1.24,
+        "risk_free": 0.02,
+        "date": "2022-12-06",
+        "market": 1
+      },
+      {
+        "id": 147946,
+        "size": 0.02,
+        "momentum": 0.54,
+        "value": 0.06,
+        "market_excess": -0.22,
+        "risk_free": 0.02,
+        "date": "2022-12-07",
+        "market": 1
+      },
+      {
+        "id": 147947,
+        "size": -0.07,
+        "momentum": -0.63,
+        "value": -0.59,
+        "market_excess": 0.57,
+        "risk_free": 0.02,
+        "date": "2022-12-08",
+        "market": 1
+      },
+      {
+        "id": 147948,
+        "size": 0.24,
+        "momentum": -0.64,
+        "value": -0.22,
+        "market_excess": -0.27,
+        "risk_free": 0.02,
+        "date": "2022-12-09",
+        "market": 1
+      },
+      {
+        "id": 147949,
+        "size": -0.69,
+        "momentum": 0.01,
+        "value": -0.07,
+        "market_excess": 0.68,
+        "risk_free": 0.02,
+        "date": "2022-12-12",
+        "market": 1
+      },
+      {
+        "id": 147950,
+        "size": 0.39,
+        "momentum": -0.88,
+        "value": -0.54,
+        "market_excess": 1.14,
+        "risk_free": 0.02,
+        "date": "2022-12-13",
+        "market": 1
+      },
+      {
+        "id": 147951,
+        "size": 0.28,
+        "momentum": 0.37,
+        "value": -0.23,
+        "market_excess": -0.22,
+        "risk_free": 0.02,
+        "date": "2022-12-14",
+        "market": 1
+      },
+      {
+        "id": 147952,
+        "size": 0.16,
+        "momentum": 1.5,
+        "value": 1.28,
+        "market_excess": -2.59,
+        "risk_free": 0.02,
+        "date": "2022-12-15",
+        "market": 1
+      },
+      {
+        "id": 147953,
+        "size": 0.43,
+        "momentum": 0.58,
+        "value": 0.36,
+        "market_excess": -1.05,
+        "risk_free": 0.02,
+        "date": "2022-12-16",
+        "market": 1
+      },
+      {
+        "id": 147954,
+        "size": -0.29,
+        "momentum": 1.29,
+        "value": 0.75,
+        "market_excess": -0.7,
+        "risk_free": 0.02,
+        "date": "2022-12-19",
+        "market": 1
+      },
+      {
+        "id": 147955,
+        "size": 0.01,
+        "momentum": 0.76,
+        "value": 1.16,
+        "market_excess": 0.25,
+        "risk_free": 0.02,
+        "date": "2022-12-20",
+        "market": 1
+      },
+      {
+        "id": 147956,
+        "size": -0.39,
+        "momentum": -0.25,
+        "value": -0.18,
+        "market_excess": 1.19,
+        "risk_free": 0.02,
+        "date": "2022-12-21",
+        "market": 1
+      },
+      {
+        "id": 147957,
+        "size": 0.53,
+        "momentum": 0.67,
+        "value": 0.46,
+        "market_excess": -1.1,
+        "risk_free": 0.02,
+        "date": "2022-12-22",
+        "market": 1
+      },
+      {
+        "id": 147958,
+        "size": -0.4,
+        "momentum": 0.28,
+        "value": 0.89,
+        "market_excess": 0.32,
+        "risk_free": 0.02,
+        "date": "2022-12-23",
+        "market": 1
+      },
+      {
+        "id": 147959,
+        "size": 0.07,
+        "momentum": 0.05,
+        "value": 0.04,
+        "market_excess": 0.05,
+        "risk_free": 0.02,
+        "date": "2022-12-26",
+        "market": 1
+      },
+      {
+        "id": 147960,
+        "size": 0,
+        "momentum": 0.99,
+        "value": 0.64,
+        "market_excess": -0.22,
+        "risk_free": 0.02,
+        "date": "2022-12-27",
+        "market": 1
+      },
+      {
+        "id": 147961,
+        "size": 0.05,
+        "momentum": -0.16,
+        "value": -0.01,
+        "market_excess": -1,
+        "risk_free": 0.02,
+        "date": "2022-12-28",
+        "market": 1
+      },
+      {
+        "id": 147962,
+        "size": 0.33,
+        "momentum": -1.58,
+        "value": -0.85,
+        "market_excess": 1.51,
+        "risk_free": 0.02,
+        "date": "2022-12-29",
+        "market": 1
+      },
+      {
+        "id": 147963,
+        "size": 0.63,
+        "momentum": -0.09,
+        "value": 0.05,
+        "market_excess": -0.2,
+        "risk_free": 0.02,
+        "date": "2022-12-30",
+        "market": 1
+      },
+      {
+        "id": 147964,
+        "size": 0.04,
+        "momentum": -0.12,
+        "value": 0.1,
+        "market_excess": 0.15,
+        "risk_free": 0.02,
+        "date": "2023-01-02",
+        "market": 1
+      },
+      {
+        "id": 147965,
+        "size": -0.08,
+        "momentum": -1.22,
+        "value": -0.06,
+        "market_excess": -0.38,
+        "risk_free": 0.02,
+        "date": "2023-01-03",
+        "market": 1
+      },
+      {
+        "id": 147966,
+        "size": -0.35,
+        "momentum": -1.77,
+        "value": 0.05,
+        "market_excess": 0.9,
+        "risk_free": 0.02,
+        "date": "2023-01-04",
+        "market": 1
+      },
+      {
+        "id": 147967,
+        "size": 0.12,
+        "momentum": 0.47,
+        "value": 0.69,
+        "market_excess": -0.98,
+        "risk_free": 0.02,
+        "date": "2023-01-05",
+        "market": 1
+      },
+      {
+        "id": 147968,
+        "size": -0.37,
+        "momentum": -0.02,
+        "value": -0.09,
+        "market_excess": 2.11,
+        "risk_free": 0.02,
+        "date": "2023-01-06",
+        "market": 1
+      },
+      {
+        "id": 147969,
+        "size": 0.56,
+        "momentum": -1.2,
+        "value": -0.82,
+        "market_excess": 0.48,
+        "risk_free": 0.02,
+        "date": "2023-01-09",
+        "market": 1
+      },
+      {
+        "id": 147970,
+        "size": 0.07,
+        "momentum": -0.31,
+        "value": -0.23,
+        "market_excess": 0.35,
+        "risk_free": 0.02,
+        "date": "2023-01-10",
+        "market": 1
+      },
+      {
+        "id": 147971,
+        "size": -0.17,
+        "momentum": -0.99,
+        "value": -0.65,
+        "market_excess": 1,
+        "risk_free": 0.02,
+        "date": "2023-01-11",
+        "market": 1
+      },
+      {
+        "id": 147972,
+        "size": 0.76,
+        "momentum": -0.21,
+        "value": 0.37,
+        "market_excess": 0.95,
+        "risk_free": 0.02,
+        "date": "2023-01-12",
+        "market": 1
+      },
+      {
+        "id": 147973,
+        "size": 0.2,
+        "momentum": -0.07,
+        "value": -0.17,
+        "market_excess": 0.47,
+        "risk_free": 0.02,
+        "date": "2023-01-13",
+        "market": 1
+      },
+      {
+        "id": 147974,
+        "size": -0.02,
+        "momentum": -0.35,
+        "value": -0.2,
+        "market_excess": -0.04,
+        "risk_free": 0.02,
+        "date": "2023-01-16",
+        "market": 1
+      },
+      {
+        "id": 147975,
+        "size": 0.12,
+        "momentum": -0.23,
+        "value": -0.25,
+        "market_excess": 0.03,
+        "risk_free": 0.02,
+        "date": "2023-01-17",
+        "market": 1
+      },
+      {
+        "id": 147976,
+        "size": 0.66,
+        "momentum": 0.01,
+        "value": -0.57,
+        "market_excess": -0.84,
+        "risk_free": 0.02,
+        "date": "2023-01-18",
+        "market": 1
+      },
+      {
+        "id": 147977,
+        "size": -0.04,
+        "momentum": 0.66,
+        "value": 0.6,
+        "market_excess": -0.85,
+        "risk_free": 0.02,
+        "date": "2023-01-19",
+        "market": 1
+      },
+      {
+        "id": 147978,
+        "size": -0.37,
+        "momentum": -1.19,
+        "value": -0.44,
+        "market_excess": 1.4,
+        "risk_free": 0.02,
+        "date": "2023-01-20",
+        "market": 1
+      },
+      {
+        "id": 147979,
+        "size": -0.04,
+        "momentum": -1.5,
+        "value": -0.86,
+        "market_excess": 0.98,
+        "risk_free": 0.02,
+        "date": "2023-01-23",
+        "market": 1
+      },
+      {
+        "id": 147980,
+        "size": 0.11,
+        "momentum": 0.46,
+        "value": 0.14,
+        "market_excess": 0.04,
+        "risk_free": 0.02,
+        "date": "2023-01-24",
+        "market": 1
+      },
+      {
+        "id": 147981,
+        "size": 0,
+        "momentum": 0.1,
+        "value": 0.47,
+        "market_excess": 0.08,
+        "risk_free": 0.02,
+        "date": "2023-01-25",
+        "market": 1
+      },
+      {
+        "id": 147982,
+        "size": -0.47,
+        "momentum": -0.92,
+        "value": -0.15,
+        "market_excess": 0.71,
+        "risk_free": 0.02,
+        "date": "2023-01-26",
+        "market": 1
+      },
+      {
+        "id": 147983,
+        "size": 0.23,
+        "momentum": -1.46,
+        "value": -0.48,
+        "market_excess": 0.26,
+        "risk_free": 0.02,
+        "date": "2023-01-27",
+        "market": 1
+      },
+      {
+        "id": 147984,
+        "size": 0.01,
+        "momentum": 0.86,
+        "value": 0.49,
+        "market_excess": -1.06,
+        "risk_free": 0.02,
+        "date": "2023-01-30",
+        "market": 1
+      },
+      {
+        "id": 147985,
+        "size": -0.07,
+        "momentum": -0.43,
+        "value": 0.25,
+        "market_excess": 0.99,
+        "risk_free": 0.02,
+        "date": "2023-01-31",
+        "market": 1
+      },
+      {
+        "id": 147986,
+        "size": 0.47,
+        "momentum": -1.49,
+        "value": -1.03,
+        "market_excess": 1.09,
+        "risk_free": 0.02,
+        "date": "2023-02-01",
+        "market": 1
+      },
+      {
+        "id": 147987,
+        "size": 0.38,
+        "momentum": -3.66,
+        "value": -2.21,
+        "market_excess": 1,
+        "risk_free": 0.02,
+        "date": "2023-02-02",
+        "market": 1
+      },
+      {
+        "id": 147988,
+        "size": -0.33,
+        "momentum": 0.9,
+        "value": 0.28,
+        "market_excess": -1.02,
+        "risk_free": 0.02,
+        "date": "2023-02-03",
+        "market": 1
+      },
+      {
+        "id": 147989,
+        "size": -0.45,
+        "momentum": 0.84,
+        "value": 0.53,
+        "market_excess": -0.9,
+        "risk_free": 0.02,
+        "date": "2023-02-06",
+        "market": 1
+      },
+      {
+        "id": 147990,
+        "size": -0.46,
+        "momentum": -0.22,
+        "value": 0.2,
+        "market_excess": 0.95,
+        "risk_free": 0.02,
+        "date": "2023-02-07",
+        "market": 1
+      },
+      {
+        "id": 147991,
+        "size": 0.21,
+        "momentum": 0.72,
+        "value": 0.42,
+        "market_excess": -0.71,
+        "risk_free": 0.02,
+        "date": "2023-02-08",
+        "market": 1
+      },
+      {
+        "id": 147992,
+        "size": 0.07,
+        "momentum": 0.79,
+        "value": 0.09,
+        "market_excess": -0.46,
+        "risk_free": 0.02,
+        "date": "2023-02-09",
+        "market": 1
+      },
+      {
+        "id": 147993,
+        "size": -0.63,
+        "momentum": 1.18,
+        "value": 1.37,
+        "market_excess": -0.24,
+        "risk_free": 0.02,
+        "date": "2023-02-10",
+        "market": 1
+      },
+      {
+        "id": 147994,
+        "size": -0.41,
+        "momentum": -0.18,
+        "value": -0.5,
+        "market_excess": 0.91,
+        "risk_free": 0.02,
+        "date": "2023-02-13",
+        "market": 1
+      },
+      {
+        "id": 147995,
+        "size": 0.15,
+        "momentum": -0.41,
+        "value": -0.29,
+        "market_excess": 0.15,
+        "risk_free": 0.02,
+        "date": "2023-02-14",
+        "market": 1
+      },
+      {
+        "id": 147996,
+        "size": -0.06,
+        "momentum": -0.69,
+        "value": -0.45,
+        "market_excess": 0.13,
+        "risk_free": 0.02,
+        "date": "2023-02-15",
+        "market": 1
+      },
+      {
+        "id": 147997,
+        "size": 0.49,
+        "momentum": 0.77,
+        "value": 0.57,
+        "market_excess": -0.8,
+        "risk_free": 0.02,
+        "date": "2023-02-16",
+        "market": 1
+      },
+      {
+        "id": 147998,
+        "size": 0.04,
+        "momentum": 0.27,
+        "value": 0.34,
+        "market_excess": -0.29,
+        "risk_free": 0.02,
+        "date": "2023-02-17",
+        "market": 1
+      },
+      {
+        "id": 147999,
+        "size": 0.05,
+        "momentum": -0.08,
+        "value": 0.24,
+        "market_excess": 0.02,
+        "risk_free": 0.02,
+        "date": "2023-02-20",
+        "market": 1
+      },
+      {
+        "id": 148000,
+        "size": -0.12,
+        "momentum": 0.93,
+        "value": 0.61,
+        "market_excess": -1.62,
+        "risk_free": 0.02,
+        "date": "2023-02-21",
+        "market": 1
+      },
+      {
+        "id": 148001,
+        "size": -0.25,
+        "momentum": -0.29,
+        "value": -0.13,
+        "market_excess": -0.33,
+        "risk_free": 0.02,
+        "date": "2023-02-22",
+        "market": 1
+      },
+      {
+        "id": 148002,
+        "size": 0.19,
+        "momentum": 0.04,
+        "value": 0.04,
+        "market_excess": 0.29,
+        "risk_free": 0.02,
+        "date": "2023-02-23",
+        "market": 1
+      },
+      {
+        "id": 148003,
+        "size": -0.01,
+        "momentum": 0.61,
+        "value": 0.89,
+        "market_excess": -1.1,
+        "risk_free": 0.02,
+        "date": "2023-02-24",
+        "market": 1
+      },
+      {
+        "id": 148004,
+        "size": 0.11,
+        "momentum": 0.02,
+        "value": 0.08,
+        "market_excess": 0.6,
+        "risk_free": 0.02,
+        "date": "2023-02-27",
+        "market": 1
+      },
+      {
+        "id": 148005,
+        "size": 0.53,
+        "momentum": 0.01,
+        "value": -0.41,
+        "market_excess": -0.33,
+        "risk_free": 0.02,
+        "date": "2023-02-28",
+        "market": 1
+      },
+      {
+        "id": 148006,
+        "size": 0.37,
+        "momentum": 1.23,
+        "value": 0.5,
+        "market_excess": -0.05,
+        "risk_free": 0.02,
+        "date": "2023-03-01",
+        "market": 1
+      },
+      {
+        "id": 148007,
+        "size": -0.62,
+        "momentum": -0.1,
+        "value": -0.22,
+        "market_excess": 0.32,
+        "risk_free": 0.02,
+        "date": "2023-03-02",
+        "market": 1
+      },
+      {
+        "id": 148008,
+        "size": -0.11,
+        "momentum": -0.51,
+        "value": -0.45,
+        "market_excess": 1.48,
+        "risk_free": 0.02,
+        "date": "2023-03-03",
+        "market": 1
+      },
+      {
+        "id": 148009,
+        "size": -0.59,
+        "momentum": 0.2,
+        "value": -0.23,
+        "market_excess": 0.04,
+        "risk_free": 0.02,
+        "date": "2023-03-06",
+        "market": 1
+      },
+      {
+        "id": 148010,
+        "size": 0.26,
+        "momentum": 0.44,
+        "value": -0.1,
+        "market_excess": -1.5,
+        "risk_free": 0.02,
+        "date": "2023-03-07",
+        "market": 1
+      },
+      {
+        "id": 148011,
+        "size": 0,
+        "momentum": 0.03,
+        "value": -0.08,
+        "market_excess": 0.01,
+        "risk_free": 0.02,
+        "date": "2023-03-08",
+        "market": 1
+      },
+      {
+        "id": 148012,
+        "size": 0.44,
+        "momentum": 0.72,
+        "value": -0.47,
+        "market_excess": -1.09,
+        "risk_free": 0.02,
+        "date": "2023-03-09",
+        "market": 1
+      },
+      {
+        "id": 148013,
+        "size": -0.34,
+        "momentum": 0.18,
+        "value": 0.25,
+        "market_excess": -1.45,
+        "risk_free": 0.02,
+        "date": "2023-03-10",
+        "market": 1
+      },
+      {
+        "id": 148014,
+        "size": -0.09,
+        "momentum": -1.08,
+        "value": -2.15,
+        "market_excess": -0.51,
+        "risk_free": 0.02,
+        "date": "2023-03-13",
+        "market": 1
+      },
+      {
+        "id": 148015,
+        "size": -0.8,
+        "momentum": -0.58,
+        "value": -0.61,
+        "market_excess": 1.06,
+        "risk_free": 0.02,
+        "date": "2023-03-14",
+        "market": 1
+      },
+      {
+        "id": 148016,
+        "size": 0.17,
+        "momentum": -1.37,
+        "value": -1.32,
+        "market_excess": -1.52,
+        "risk_free": 0.02,
+        "date": "2023-03-15",
+        "market": 1
+      },
+      {
+        "id": 148017,
+        "size": -0.7,
+        "momentum": -0.7,
+        "value": -0.97,
+        "market_excess": 1.39,
+        "risk_free": 0.02,
+        "date": "2023-03-16",
+        "market": 1
+      },
+      {
+        "id": 148018,
+        "size": 0.54,
+        "momentum": -0.21,
+        "value": -1.1,
+        "market_excess": -0.72,
+        "risk_free": 0.02,
+        "date": "2023-03-17",
+        "market": 1
+      },
+      {
+        "id": 148019,
+        "size": -0.92,
+        "momentum": 0.8,
+        "value": 0.71,
+        "market_excess": 0.74,
+        "risk_free": 0.02,
+        "date": "2023-03-20",
+        "market": 1
+      },
+      {
+        "id": 148020,
+        "size": -0.36,
+        "momentum": -0.1,
+        "value": 0.41,
+        "market_excess": 1.28,
+        "risk_free": 0.02,
+        "date": "2023-03-21",
+        "market": 1
+      },
+      {
+        "id": 148021,
+        "size": 0.34,
+        "momentum": 0.73,
+        "value": -0.33,
+        "market_excess": -0.68,
+        "risk_free": 0.02,
+        "date": "2023-03-22",
+        "market": 1
+      },
+      {
+        "id": 148022,
+        "size": 0.17,
+        "momentum": -0.47,
+        "value": -1.13,
+        "market_excess": 0.1,
+        "risk_free": 0.02,
+        "date": "2023-03-23",
+        "market": 1
+      },
+      {
+        "id": 148023,
+        "size": -0.23,
+        "momentum": -0.48,
+        "value": 0.02,
+        "market_excess": -0.2,
+        "risk_free": 0.02,
+        "date": "2023-03-24",
+        "market": 1
+      },
+      {
+        "id": 148024,
+        "size": -0.11,
+        "momentum": 0.64,
+        "value": 0.88,
+        "market_excess": 0.47,
+        "risk_free": 0.02,
+        "date": "2023-03-27",
+        "market": 1
+      },
+      {
+        "id": 148025,
+        "size": -0.06,
+        "momentum": 0.59,
+        "value": 0.73,
+        "market_excess": 0.11,
+        "risk_free": 0.02,
+        "date": "2023-03-28",
+        "market": 1
+      },
+      {
+        "id": 148026,
+        "size": -0.41,
+        "momentum": -0.41,
+        "value": -0.29,
+        "market_excess": 1.18,
+        "risk_free": 0.02,
+        "date": "2023-03-29",
+        "market": 1
+      },
+      {
+        "id": 148027,
+        "size": 0.01,
+        "momentum": -0.27,
+        "value": -0.4,
+        "market_excess": 0.79,
+        "risk_free": 0.02,
+        "date": "2023-03-30",
+        "market": 1
+      },
+      {
+        "id": 148028,
+        "size": -0.11,
+        "momentum": -0.45,
+        "value": -0.47,
+        "market_excess": 1.05,
+        "risk_free": 0.02,
+        "date": "2023-03-31",
+        "market": 1
+      },
+      {
+        "id": 148029,
+        "size": -0.05,
+        "momentum": 0.47,
+        "value": 0.89,
+        "market_excess": 0.49,
+        "risk_free": 0.02,
+        "date": "2023-04-03",
+        "market": 1
+      },
+      {
+        "id": 148030,
+        "size": -0.1,
+        "momentum": -0.54,
+        "value": -0.34,
+        "market_excess": -0.32,
+        "risk_free": 0.02,
+        "date": "2023-04-04",
+        "market": 1
+      },
+      {
+        "id": 148031,
+        "size": -0.96,
+        "momentum": 0,
+        "value": 0.66,
+        "market_excess": -0.58,
+        "risk_free": 0.02,
+        "date": "2023-04-05",
+        "market": 1
+      },
+      {
+        "id": 148032,
+        "size": -0.35,
+        "momentum": -0.57,
+        "value": -0.09,
+        "market_excess": 0.16,
+        "risk_free": 0.02,
+        "date": "2023-04-06",
+        "market": 1
+      },
+      {
+        "id": 148033,
+        "size": -0.03,
+        "momentum": 0.06,
+        "value": 0.04,
+        "market_excess": -0.07,
+        "risk_free": 0.02,
+        "date": "2023-04-07",
+        "market": 1
+      },
+      {
+        "id": 148034,
+        "size": 0.15,
+        "momentum": 0.18,
+        "value": 0.23,
+        "market_excess": 0,
+        "risk_free": 0.02,
+        "date": "2023-04-10",
+        "market": 1
+      },
+      {
+        "id": 148035,
+        "size": 0.41,
+        "momentum": -0.11,
+        "value": 0.49,
+        "market_excess": 0.43,
+        "risk_free": 0.02,
+        "date": "2023-04-11",
+        "market": 1
+      },
+      {
+        "id": 148036,
+        "size": 0.09,
+        "momentum": 0.7,
+        "value": 0.45,
+        "market_excess": 0,
+        "risk_free": 0.02,
+        "date": "2023-04-12",
+        "market": 1
+      },
+      {
+        "id": 148037,
+        "size": 0.1,
+        "momentum": -0.28,
+        "value": -0.9,
+        "market_excess": 1.21,
+        "risk_free": 0.02,
+        "date": "2023-04-13",
+        "market": 1
+      },
+      {
+        "id": 148038,
+        "size": -0.33,
+        "momentum": 0.24,
+        "value": 0.14,
+        "market_excess": -0.18,
+        "risk_free": 0.02,
+        "date": "2023-04-14",
+        "market": 1
+      },
+      {
+        "id": 148039,
+        "size": 0.13,
+        "momentum": -0.35,
+        "value": 0.12,
+        "market_excess": 0.07,
+        "risk_free": 0.02,
+        "date": "2023-04-17",
+        "market": 1
+      },
+      {
+        "id": 148040,
+        "size": -0.03,
+        "momentum": 0.79,
+        "value": 0.09,
+        "market_excess": 0.28,
+        "risk_free": 0.02,
+        "date": "2023-04-18",
+        "market": 1
+      },
+      {
+        "id": 148041,
+        "size": -0.23,
+        "momentum": -0.08,
+        "value": 0.17,
+        "market_excess": -0.17,
+        "risk_free": 0.02,
+        "date": "2023-04-19",
+        "market": 1
+      },
+      {
+        "id": 148042,
+        "size": 0.11,
+        "momentum": 0.53,
+        "value": -0.06,
+        "market_excess": -0.37,
+        "risk_free": 0.02,
+        "date": "2023-04-20",
+        "market": 1
+      },
+      {
+        "id": 148043,
+        "size": 0.01,
+        "momentum": 0.12,
+        "value": -0.56,
+        "market_excess": 0.09,
+        "risk_free": 0.02,
+        "date": "2023-04-21",
+        "market": 1
+      },
+      {
+        "id": 148044,
+        "size": -0.08,
+        "momentum": -0.12,
+        "value": 0.21,
+        "market_excess": 0.14,
+        "risk_free": 0.02,
+        "date": "2023-04-24",
+        "market": 1
+      },
+      {
+        "id": 148045,
+        "size": -0.04,
+        "momentum": -0.16,
+        "value": 0.12,
+        "market_excess": -1.38,
+        "risk_free": 0.02,
+        "date": "2023-04-25",
+        "market": 1
+      },
+      {
+        "id": 148046,
+        "size": 0.02,
+        "momentum": -0.11,
+        "value": -0.25,
+        "market_excess": -0.38,
+        "risk_free": 0.02,
+        "date": "2023-04-26",
+        "market": 1
+      },
+      {
+        "id": 148047,
+        "size": -0.6,
+        "momentum": -0.27,
+        "value": -0.44,
+        "market_excess": 1.23,
+        "risk_free": 0.02,
+        "date": "2023-04-27",
+        "market": 1
+      },
+      {
+        "id": 148048,
+        "size": -0.01,
+        "momentum": -0.04,
+        "value": 0.02,
+        "market_excess": 0.56,
+        "risk_free": 0.02,
+        "date": "2023-04-28",
+        "market": 1
+      }
+    ]
+  }
