@@ -4,6 +4,7 @@ from pydantic import BaseModel
 
 
 class BaseResponse(BaseModel):
+    detail: Optional[str] = None
     http_response: Optional[Any] = None
 
 

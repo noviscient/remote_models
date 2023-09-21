@@ -2,6 +2,7 @@ import json
 from typing import Any, Dict, List
 
 import pytest
+from requests import codes
 
 from remote_models.exceptions import GenericFailedRequest
 from remote_models.models import RemoteModel
@@ -145,3 +146,58 @@ def test_filter_remote_famafrench_timeseries_models(requests_mock):
     ), f"Response type is not {FamaFrenchTimeSeriesResponse}"
     assert len(response.results) == 304, "Response results length is not 304"
     assert response.count == 304, "Response count is not 304"
+
+
+def test_successful_delete_remote_models(requests_mock):
+    """Test successful delete remote models
+
+    Args:
+        requests_mock (_type_): Requests mock
+    """
+
+    requests_mock.delete(
+        "http://benchmarks-api.noviscient.com/api/v1/benchmark-timeseries/12345/",
+        content=b"",
+        status_code=codes.no_content,
+    )
+
+    remote_benchmarks = RemoteModel(
+        base_url="http://benchmarks-api.noviscient.com/api/v1/"
+    )
+
+    response = remote_benchmarks.delete(
+        entity="benchmark-timeseries/12345",
+        response_class=BaseResponse,
+    )
+
+    assert (
+        type(response) == BaseResponse
+    ), f"Expected response type is {BaseResponse}, got {type(response)}"
+
+    assert (
+        response.http_response.status_code == codes.no_content
+    ), f"Expected status code is {codes.no_content}, got {response.http_response.status_code}"
+
+
+def test_failed_delete_remote_models(requests_mock):
+    """Test failed delete remote models
+
+    Args:
+        requests_mock (_type_): Requests mock
+    """
+
+    requests_mock.delete(
+        "http://benchmarks-api.noviscient.com/api/v1/benchmark-timeseries/12345/",
+        json={"detail": "Not found"},
+        status_code=codes.not_found,
+    )
+
+    remote_benchmarks = RemoteModel(
+        base_url="http://benchmarks-api.noviscient.com/api/v1/"
+    )
+
+    with pytest.raises(GenericFailedRequest):
+        remote_benchmarks.delete(
+            entity="benchmark-timeseries/12345",
+            response_class=BaseResponse,
+        )

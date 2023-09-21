@@ -208,18 +208,20 @@ class RemoteModel:
         url = self._url(entity)
 
         try:
-            with self.session.delete(
+            response = self.session.delete(
                 url, json=fields_values, headers=self._header(), timeout=self.timeout
-            ) as response:
+            )
 
-                self.raise_for_status(response, url)
+            self.raise_for_status(response, url)
+
+            if response.status_code == 204 and len(response.content) == 0:
+                response_data = response_class(http_response=response)
+            else:
                 response_data = response_class(
                     **response.json(), http_response=response
                 )
 
         except requests.exceptions.Timeout as exc:
-            logger.exception(f"[!!!] Time out exception: {exc}")
             raise RemoteModelTimeOutException(exc)
-
         else:
             return response_data
