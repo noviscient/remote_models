@@ -1,5 +1,4 @@
 import logging
-import urllib
 from typing import Any, List, Optional, Type
 
 import requests
@@ -24,15 +23,14 @@ class RemoteModel:
             "content-type": "application/json",
         }
 
-    def _url(self, entity: str, **params) -> str:
-        """Converts params to query string and returns url
+    def _url(self, entity: str) -> str:
+        """Construct endpoint URL
 
         Returns:
-            str: URL with query string
+            str: URL without query string
         """
-        encoded_params = urllib.parse.urlencode(params) if params else ""
 
-        return f"{self.base_url}{entity}/?{encoded_params}"
+        return f"{self.base_url}{entity}/"
 
     def raise_for_status(self, response: requests.Response, url: Optional[str]) -> None:
         """Raises exception if status code is not 200
@@ -56,13 +54,12 @@ class RemoteModel:
             BaseResponse: REST API Response
         """
 
-        url = self._url(entity, **conditions)
+        url = self._url(entity)
 
         try:
             with self.session.get(
-                url, headers=self._header(), timeout=self.timeout
+                url, params=conditions, headers=self._header(), timeout=self.timeout
             ) as response:
-
                 self.raise_for_status(response, url)
                 response_data = response_class(
                     **response.json(), http_response=response
@@ -99,7 +96,6 @@ class RemoteModel:
                 with self.session.get(
                     response_data.next, headers=self._header(), timeout=self.timeout
                 ) as response:
-
                     self.raise_for_status(response, response_data.next)
                     response_data = response_class(
                         **response.json(), http_response=response
@@ -129,7 +125,6 @@ class RemoteModel:
             with self.session.post(
                 url, json=fields_values, headers=self._header(), timeout=self.timeout
             ) as response:
-
                 self.raise_for_status(response, url)
                 response_data = response_class(
                     **response.json(), http_response=response
@@ -157,7 +152,6 @@ class RemoteModel:
             with self.session.post(
                 url, json=bulk_data, headers=self._header(), timeout=self.timeout
             ) as response:
-
                 self.raise_for_status(response, url)
                 response_data = response_class(http_response=response)
 
@@ -183,7 +177,6 @@ class RemoteModel:
             with self.session.patch(
                 url, json=fields_values, headers=self._header(), timeout=self.timeout
             ) as response:
-
                 self.raise_for_status(response, url)
                 response_data = response_class(
                     **response.json(), http_response=response
